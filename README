@@ -1,0 +1,32 @@
+Node.js version
+===============
+# node --version
+v15.5.0
+
+npm version
+===========
+# npm --version
+7.3.0
+
+AWS CLI version
+==============
+# aws --version
+aws-cli/2.1.20 Python/3.7.3 Linux/4.18.0-240.1.1.el8_3.x86_64 exe/x86_64.centos.8 prompt/off
+
+Serverless version
+=================
+# sls --version
+Framework Core: 1.74.1
+Plugin: 3.8.4
+SDK: 2.3.2
+Components: 2.34.9
+
+Response from "Hello World" lambda function
+===========================================
+# serverless invoke -f hello -l
+{
+    "statusCode": 200,
+    "body": "{\n  \"message\": \"Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!\",\n  \"input\": {}\n}"
+}
+
+
